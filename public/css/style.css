@@ -1,0 +1,96 @@
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    
+}
+
+.create-form {
+	max-width: 600px;
+	text-align: left;
+	margin: 20px auto;
+}
+
+.min-height {
+	min-height: 77vh;
+}
+
+.display-4 {
+	text-align: center;
+}
+
+.float-r {
+	float: right;
+}
+
+/* 
+	Trade List Styles
+*/
+.trade-list {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.trade {
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid grey;
+	
+}
+
+.profit-trade {
+	border: 2px solid #89fe0082;
+	background-color: #89fe0082;
+}
+
+.profit-trade:hover {
+	border: 2px solid #89fe00;
+    background-color: #89fe009e;
+    cursor: pointer;
+}
+
+.profit .figure {
+	border: none;
+}
+
+.loss-trade {
+	border: 2px solid #FFB1C1;
+	background-color: #FFB1C1;
+}
+
+.loss-trade:hover {
+	border: 2px solid #fb859e;
+    background-color: #faa8b9;
+    cursor: pointer;
+}
+
+.be-trade {
+	border: 2px solid #e4e4e4b0;
+	background-color: #e4e4e4b0;
+}
+
+.be-trade:hover {
+	border: 2px solid #c6c5c5;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.time {
+	float: right;
+}
+
+/*
+
+Graphs List Style
+
+*/
+
+.graphs-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.graph {
+	width: 33%;
+}
